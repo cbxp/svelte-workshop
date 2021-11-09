@@ -1,0 +1,15 @@
+{
+  "title": "Tere Maailm",
+  "section": {
+    "button": "Nupp",
+    "nested": {
+      "more": {
+        "nested": "Kraam"
+      }
+    }
+  },
+  "general": {
+    "yes": "Jah",
+    "no": "Ei"
+  }
+}

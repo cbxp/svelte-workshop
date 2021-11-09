@@ -1,0 +1,17 @@
+{
+  "title": "Hello World",
+  "section": {
+    "button": "Button",
+    "nested": {
+      "title": "Nested title",
+      "subtitle": "Nested subtitle",
+      "more": {
+        "nested": "Stuff"
+      }
+    }
+  },
+  "general": {
+    "yes": "Yes",
+    "no": "No"
+  }
+}
