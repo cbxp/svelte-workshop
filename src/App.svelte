@@ -1,5 +1,7 @@
 <script lang="ts">
   import {onMount} from 'svelte'
+  import Dummy from './sample/Dummy.svelte'
+  import LangsLoader from './sample/LangsLoader.svelte'
 
   let count: number = 0
   onMount(() => {
@@ -11,14 +13,8 @@
 </script>
 
 <style>
-  .App p {
-    margin: 0.4rem;
-  }
-
   .App-header {
-    background-color: #f9f6f6;
-    color: #333;
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,24 +22,15 @@
     font-size: calc(10px + 2vmin);
   }
 
-  .App-link {
-    color: #ff3e00;
-  }
-
   .App-logo {
     height: 36vmin;
-    pointer-events: none;
     margin-bottom: 3rem;
     animation: App-logo-spin infinite 1.6s ease-in-out alternate;
   }
 
   @keyframes App-logo-spin {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(1.06);
-    }
+    from {transform: scale(1);}
+    to {transform: scale(1.06);}
   }
 </style>
 
@@ -58,4 +45,11 @@
       </a>
     </p>
   </header>
+
+  <hr class="my-4">
+  <h2>Dummy component</h2>
+  <Dummy text="Click to increment"/>
+
+  <hr class="my-4">
+  <LangsLoader url="/i18n/langs.json"/>
 </div>
