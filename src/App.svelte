@@ -11,21 +11,6 @@
 </script>
 
 <style>
-  :global(body) {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .App {
-    text-align: center;
-  }
-
-  .App code {
-    background: #0002;
-    padding: 4px 8px;
-    border-radius: 4px;
-  }
-
   .App p {
     margin: 0.4rem;
   }
@@ -62,9 +47,9 @@
   }
 </style>
 
-<div class="App">
+<div class="App container text-center">
   <header class="App-header">
-    <img src="/logo.svg" class="App-logo" alt="logo"/>
+    <img src="/logo.svg" class="App-logo" alt="logo">
     <p>Edit <code>src/App.svelte</code> and save to reload.</p>
     <p>Page has been open for <code>{count}</code> seconds.</p>
     <p>
