@@ -1,6 +1,8 @@
-# New Project
+# Translate tool (Svelte Workshop)
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
+
+`npx create-snowpack-app translate-tool --template @snowpack/app-template-svelte-typescript`
 
 ## Available Scripts
 
